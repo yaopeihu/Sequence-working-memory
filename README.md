@@ -25,7 +25,7 @@ decode-items: parallel training for leave-one-trial/sequence-out decoding
 
 decoding1: analyze the leave-one-trial-out decoding result
 
-decoding2: trainign decoder for cross-length and error trial decoding
+decoding2: training decoder for cross-length and error trial decoding
 
 
 ## State space analysis
