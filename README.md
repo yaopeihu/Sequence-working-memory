@@ -10,7 +10,7 @@ Data used in the code is available at Zenodo: 10.5281/zenodo.5739376
 
 
 
-**State space analysis
+**State space analysis**
 
 Please add all files in this folder and its subfolder into path before run the 'main.m'.
 
