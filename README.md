@@ -1,7 +1,7 @@
 
 Refer to Science article:
 
-**Xie, Hu et al. Geometry of Sequence Working Memory in Macaque Prefrontal Cortex. 2021(2022)**
+**Xie, Hu et al. Geometry of Sequence Working Memory in Macaque Prefrontal Cortex. 2021**
 
 Data used in the code is available at [Zenodo](https://doi.org/10.5281/zenodo.5739376)
 
