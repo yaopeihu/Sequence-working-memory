@@ -8,11 +8,13 @@ Data used in the code is available at [Zenodo](https://doi.org/10.5281/zenodo.57
 Feel free to open a issue if you have any question.
 
 
+
+
 ## Calcium image processing
 
 Based on [CAIMAN](https://github.com/flatironinstitute/CaImAn)
 
-Preprocess-demo: select stable data on a trial-by-trial basis
+Preprocess-demo: select stable data from continuous recording on a trial-by-trial basis
 
 Pipeline-demo: a semi-automatic source extraction pipeline using CNMF
 
