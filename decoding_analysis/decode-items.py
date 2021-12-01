@@ -65,7 +65,7 @@ if __name__ == '__main__':
              'nw':50, # total number of decoders to train
              'nl':10, # number of decoders to use for analysis
              'ng':4,  # number of frames to optimize for in each time window 
-             'mw':[20, .1], 
+             'mw':[20, .1], # regularization strength
              'lr':1e-3, # learning rate in gradient descent
              'pl':pl, 'sl':sl, 'datadate':datadate}
         data = sio.loadmat('/mnt/sdb1/mats/more_'+datadate+'.mat'); fr = data['fr'].item(); P['N'] = len(data['F_'])
@@ -102,7 +102,7 @@ if __name__ == '__main__':
         print(datadate, method)
         Ts = np.concatenate(Ts,2); print(Ts.shape) # ndts, ndts, nTrail, ng, nw, sl
         tgCs = np.array(tgCs); print(tgCs.shape)  # nSeq/nTrial, ndts, ndts, sl, pl
-        ll = '_test_'; filepath = '/mnt/sdb1/TwoPhoton/'+datadate+'/'
+        ll = '_'; filepath = '/mnt/sdb1/TwoPhoton/'+datadate+'/'
         lstring = datadate +'_N'+ str(P['N']) +'_H'+ str(P['Nh']) +'_rw'+ str(P['rw']) +'_mw'+ str(P['mw']) +'-'+ str(P['lr'])[1:]
         np.save(filepath + method +ll+ 'lstring'+str(sl), lstring)
         np.save(filepath + method +ll+ 'tgCs'+str(sl), tgCs)
