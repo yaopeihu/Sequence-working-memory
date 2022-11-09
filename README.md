@@ -4,10 +4,7 @@ Refer to Science article:
 
 Data used in the code is available at [Zenodo](https://doi.org/10.5281/zenodo.5739376)
 
-Feel free to open a issue if you have any question.
-
-
-
+Contact Xie for questions related to state space analysis and Hu for others.
 
 ## Calcium image processing
 
@@ -15,10 +12,12 @@ Based on [CAIMAN](https://github.com/flatironinstitute/CaImAn)
 
 Preprocess-demo: select stable data from continuous recording on a trial-by-trial basis
 
-Pipeline-demo: a semi-automatic source extraction pipeline using CNMF
+Pipeline-demo: a semi-automated source extraction pipeline using CNMF
 
 
 ## Decoding analysis
+
+Decoding item information using a two-layer neural network
 
 decode-items: parallel training for leave-one-trial/sequence-out decoding
 
@@ -28,6 +27,8 @@ decoding2: training decoder for cross-length and error trial decoding
 
 
 ## State space analysis
+
+Regression analysis based on generalized linear model.
 
 Please add all files in this folder and its subfolder into path before run the 'main.m'.
 
