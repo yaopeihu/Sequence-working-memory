@@ -1,4 +1,4 @@
-Refer to Science article:
+Refer to [Science article](https://www.science.org/doi/abs/10.1126/science.abm0204):
 
 **Xie, Hu et al. Geometry of Sequence Working Memory in Macaque Prefrontal Cortex. 2022**
 
