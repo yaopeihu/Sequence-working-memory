@@ -28,7 +28,7 @@ decoding2: training decoder for cross-length and error trial decoding
 
 ## State space analysis
 
-Regression analysis based on generalized linear model.
+Multi-variable linear regression model for late delay activity.
 
 Please add all files in this folder and its subfolder into path before run the 'main.m'.
 
